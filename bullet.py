@@ -5,6 +5,8 @@ from pygame.sprite import Sprite
 
 class Bullet(Sprite):
     """A class to manage bullets fired from the ship"""
+    # Sprite is used as basic class for objects in game.
+    # Here 'Bullet' is defined as a subclass of Sprite.
 
     def __init__(self, ai_game):
         """Create a bullet object at the ship's current position."""
